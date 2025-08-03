@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   pull_request:
     branches:
-      - '**'   # Triggers for any PR branch
+      - 'main'   # Triggers for any PR branch
 
 jobs:
   build:
